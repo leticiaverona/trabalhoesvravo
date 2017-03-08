@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:si="http://www.w3schools.com/rdf/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core"
+  xmlns:org="http://www.w3.org/ns/org"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl"
+  xmlns:geo="http://www.geonames.org/ontology">
+
+<!--Descricoes dos proprietarios-->
+
+  <rdf:Description rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#ListaSuja">
+    <rdfs:label>Lista Suja do Trabalho Escravo</rdfs:label>
+    <skos:related rdf:resource="http://wikidata.dbpedia.org/page/Q8751637"/>
+    
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AlexandreMeniniVilela">
+        <foaf:name>Alexandre Menini Vilela</foaf:name>
+        <foaf:document>33987831200</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6319292/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON//dados/listasuja.rdf#AlonsoSouzadaRocha">
+         <foaf:name>Alonso Souza da Rocha</foaf:name>
+         <foaf:document>011.21600263</foaf:document>
+         <foaf:based_near rdf:resource="http://sws.geonames.org/6319288/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AntonioJavorski">
+         <foaf:name>Antonio Javorski</foaf:name>
+         <foaf:document>283.78016900</foaf:document>
+         <foaf:based_near rdf:resource="http://sws.geonames.org/6319288/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#FernandoBarbosaTeixeira">
+        <foaf:name>Fernando Barbosa Teixeira</foaf:name>
+        <foaf:document>61773930125</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6319286/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#FranciscodasChagasPedroza">
+        <foaf:name>Francisco das Chagas Pedroza</foaf:name>
+        <foaf:document>01532820291</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6319279/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#GilbertoAfonsoLimadeMoraes">
+        <foaf:name>Gilberto Afonso Lima de Moraes</foaf:name>
+        <foaf:document>50865137234</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6319288/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <org:Organization rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#FederacaodasEntidadesComunitariaseUniaodeLiderancasdoBrasilFilial">
+        <foaf:name>FEULB Filial</foaf:name>
+        <skos:prefLabel>Federacao das Entidades Comunitarias e Uniao de Lideranças do Brasil - Filial</skos:prefLabel>
+        <skos:altLabel>FEULB Filial</skos:altLabel>
+        <foaf:document>01784633000362</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3454224/"/>
+        <org:subOrganizationOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#FederacaodasEntidadesComunitariaseUniaodeLiderancasdoBrasilMatriz"/>
+      </org:Organization>
+    </rdf:li>
+    <rdf:li>
+      <org:Organization rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#LaginhaAgroIndustrial">
+        <skos:prefLabel>Laginha Agro Industrial </skos:prefLabel>
+        <foaf:name>Laginha Agro Industrial S/A</foaf:name>
+        <foaf:document>12274379000107</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6320680/"/>
+        <org:hasPost rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#LaginhaAgroIndustrialDiretor"/>
+      </org:Organization>
+    </rdf:li>
+    <rdf:li>
+      <org:Organization rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#UsinaSantaClotilde">
+        <skos:prefLabel>Usina Santa Clotilde</skos:prefLabel>
+        <foaf:name>Usina Santa Clotilde S/A</foaf:name>
+        <foaf:document>12607842000195</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6320670/"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#CristovaoLinsdaRosaOiticica"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AlbertodeMouraRodrigues"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#FernandoNisslerdaRosaOiticica"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#DanielBerardNeto"/>
+      </org:Organization>
+    </rdf:li>
+    <rdf:li>
+      <org:Organization rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AgropecuariaUniaoLtda">
+        <skos:prefLabel>Agropecuaria Uniao Ltda</skos:prefLabel>
+        <foaf:name>Agropecuaria Uniao Ltda</foaf:name>
+        <foaf:document>005447594000105</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6319306/"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AlessandraAleLopes"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#JoseLopesJunior"/>
+      </org:Organization>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#KelmadaSilvaRibeiro">
+        <foaf:name>Kelma da Silva Ribeiro</foaf:name>
+        <foaf:document>77577531200</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6319498/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AdemarAlmeidaFreire">
+        <foaf:name>Ademar Almeida Freire</foaf:name>
+        <foaf:document>01380407532</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3663683/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AlcioneSwinkaFerreira">
+        <foaf:name>Alcione Swinka Ferreira</foaf:name>
+        <foaf:document>28864654291</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3663683/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AnaSaleteMiottoLorenzetti">
+        <foaf:name>Ana Salete Miotto Lorenzetti</foaf:name>
+        <foaf:document>36964387900</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3663683/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AntonioFabioGardingo">
+        <foaf:name>Antonio Fabio Gardingo</foaf:name>
+        <foaf:document>20066503604</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3663683/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AparecidaAlbergoni">
+        <foaf:name>Aparecida Albergoni</foaf:name>
+        <foaf:document>27916880806</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3663683/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#CesardeCastroBrasileiroBorges">
+        <foaf:name>Cesar de Castro Brasileiro Borges</foaf:name>
+        <foaf:document>61775495515</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3663683/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <org:Organization rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#CIFECCompensadosdaAmazoniaLtda">
+        <skos:prefLabel>CIFEC Compensados da Amazonia Ltda</skos:prefLabel>
+        <foaf:name>CIFEC Compensados da Amazonia Ltda</foaf:name>
+        <foaf:document>04470498000107</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3663517/"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#CIFECMadeirasIndustriaeComercio"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AntonioChungYinPi"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#ZhangZhangde"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#MaKeli"/>
+      </org:Organization>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#DarioPereiraRuis">
+        <foaf:name>Dario Pereira Ruis</foaf:name>
+        <foaf:document>14592290291</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3663529/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#EdsonAzevedoFernandes">
+        <foaf:name>Edson Azevedo Fernandes</foaf:name>
+        <foaf:document>00542145804</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3663683/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <org:Organization rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#SamaumaAgrosilvipastoril">
+        <skos:prefLabel>Samauma Agrosilvipastoril</skos:prefLabel>
+        <foaf:name>F Braga de Souza - EPP</foaf:name>
+        <foaf:document>00542903000102</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6319338/"/>
+     </org:Organization>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#FernandoHenriquedeMoura">
+        <foaf:name>Fernando Henrique de Moura</foaf:name>
+        <foaf:document>45027285787</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3663683/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#IlmarSantosdaSilva">
+        <foaf:name>Ilmar Santos da Silva</foaf:name>
+        <foaf:document>35759453572</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3663683/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#JoseLopes">
+        <foaf:name>Jose Lopes</foaf:name>
+        <foaf:document>00915017253</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6319306/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#JoseLopesJunior">
+        <foaf:name>Jose Lopes Junior</foaf:name>
+        <foaf:document>68395884249</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6319306/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#MarcosAndreMendesdeCastro">
+        <foaf:name>Marcos Andre Mendes de Castro</foaf:name>
+        <foaf:document>62768220272</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6319329/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#SebastiaoGardingo">
+        <foaf:name>Sebastiao Gardingo</foaf:name>
+        <foaf:document>15320790600</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6319306/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#TarcioJulianodeSouza">
+        <foaf:name>Tarcio Juliano de Souza</foaf:name>
+        <foaf:document>65401670249</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3663683/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#ValdimiroOliveiradosSantos">
+        <foaf:name>Valdimiro Oliveira dos Santos</foaf:name>
+        <foaf:document>02796538249</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6319306/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <org:Organization rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#WSA">
+        <skos:prefLabel>W S A</skos:prefLabel>
+        <foaf:name>W. S. A. Madeireira LTDA - ME</foaf:name>
+        <foaf:document>08817485000112</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3393008/"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#WanderleiPrezotto"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#IldadaAparecidaRosa"/>
+      </org:Organization>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#WesterGudeButzke">
+        <foaf:name>Wester Gude Butzke</foaf:name>
+        <foaf:document>71476199272</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6319329/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#BelmiroCatelan">
+        <foaf:name>Belmiro Catelan</foaf:name>
+        <foaf:document>16291115034</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6321040/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <org:Organization rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#FazendaOlinda">
+        <skos:prefLabel>Fazenda Olinda</skos:prefLabel>
+        <foaf:name>Fazenda Olinda S A</foaf:name>
+        <foaf:document>08817485000112</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3451478/"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#WanderleiPrezotto"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#IldadaAparecidaRosa"/>
+      </org:Organization>
+    </rdf:li>
+    <rdf:li>
+      <org:Organization rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AngicalEmpreendimentosFlorestais">
+        <skos:prefLabel>Angical Empreendimentos Florestais</skos:prefLabel>
+        <foaf:name>Gilson Rocha de Mello de Barreiras - ME</foaf:name>
+        <foaf:document>04413650000110</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6321035/"/>
+      </org:Organization>
+    </rdf:li>
+    <rdf:li>
+      <org:Organization rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#COFERGUSAUniao">
+        <skos:prefLabel>COFERGUSA Uniao</skos:prefLabel>
+        <foaf:name>COFERGUSA - Industria e Comercio de Ferro GUSA Uniao Ltda</foaf:name>
+        <foaf:document>16557266000170</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6320824/"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AntonioResendePenido"/>
+      </org:Organization>
+    </rdf:li>
+    <rdf:li>
+      <org:Organization rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#COFERGUSAUniao">
+        <skos:prefLabel>COFERGUSA Uniao</skos:prefLabel>
+        <foaf:name>COFERGUSA - Industria e Comercio de Ferro GUSA Uniao Ltda</foaf:name>
+        <foaf:document>16557266000170</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6320824/"/>
+        <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AntonioResendePenido"/>
+      </org:Organization>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#JoaoCarlosBurin">
+        <foaf:name>Joao Carlos Burin</foaf:name>
+        <foaf:document>33847738968</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6320844/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#JoaoHenriqueMeneghel">
+        <foaf:name>João Henrique Meneghel</foaf:name>
+        <foaf:document>68072937987</foaf:document>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/6320823/"/>
+      </foaf:Person>
+    </rdf:li>
+    <rdf:li>
+      <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#Jose ArismarChaves">
+        <foaf:name>Jose Arismar Chaves</foaf:name>
+        <foaf:document>66376661300</foaf:document>
+        <foaf:based_near rdf:resource=""/>
+      </foaf:Person>
+    </rdf:li>
+  </rdf:Description>
+    
+<!--Informacoes adicionais-->
+
+  <org:Post rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#LaginhaAgroIndustrialDiretor">
+    <foaf:name>Diretor</foaf:name>
+    <org:heldBy rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#JoaoJosePereiradeLyra"/>
+    <org:heldBy rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AntonioArnaldoBaltarCansancao"/>
+  </org:Post>
+
+    <org:Organization rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#FederacaodasEntidadesComunitariaseUniaodeLiderancasdoBrasilMatriz">
+      <foaf:name>FEULB Matriz</foaf:name>
+      <skos:prefLabel>Federacao das Entidades Comunitarias e Uniao de Liderancas do Brasil - Matriz</skos:prefLabel>
+      <skos:altLabel>FEULB Matriz</skos:altLabel>
+      <foaf:document>01784633000109</foaf:document>
+      <foaf:based_near rdf:resource="http://sws.geonames.org/6324358/"/>
+      <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#JoaoLuizLeite"/>
+    </org:Organization>
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#JoaoLuizLeite">
+      <foaf:name>Joao Luiz Leite</foaf:name>
+      <foaf:document>OAB-SP 141403</foaf:document>
+      <foaf:comment>Eleicoes 2016 - Candidato a vereador em Guarulhos SP pelo PTB (resultado: suplente)</foaf:comment>
+      <org:member rdf:resource="http://www.homework.camp/ORGCON/dados/partidos.rdf#PTB"/>
+    </foaf:Person>
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#JoaoJosePereiradeLyra">
+      <foaf:name>Joao Jose Pereira de Lyra</foaf:name>
+      <owl:sameAs rdf:resource="https://pt.wikipedia.org/wiki/Jo%C3%A3o_Lyra"/>
+      <foaf:comment>Ex-senador, ex-deputado. Citado nos Panama papers. Acusado de assassinato mais de uma vez.
+        Pai de Tereza Collor, esposa de Pedro Collor que e irmao de Fernando Collor</foaf:comment>
+    </foaf:Person>
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AntonioArnaldoBaltarCansancao">
+      <foaf:name>Antonio Arnaldo Baltar Cansancao</foaf:name>
+    </foaf:Person>
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#CristovaoLinsdaRosaOiticica">
+      <foaf:name>Cristovao Lins da Rosa Oiticica</foaf:name>
+    </foaf:Person>
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AlbertodeMouraRodrigues">
+      <foaf:name>Alberto de Moura Rodrigues</foaf:name>
+    </foaf:Person>
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#FernandoNisslerdaRosaOiticica">
+      <foaf:name>Fernando Nissler da Rosa Oiticica</foaf:name>
+    </foaf:Person>
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#DanielBerardNeto">
+      <foaf:name>Daniel Berard Neto</foaf:name>
+    </foaf:Person>
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AlessandraAleLopes">
+      <foaf:name>Alessandra Ale Lopes</foaf:name>
+    </foaf:Person>
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#JoseLopesJunior">
+      <foaf:name>Jose Lopes Junior</foaf:name>
+    </foaf:Person>
+
+    <org:Organization rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#CIFECMadeirasIndustriaeComercio">
+      <skos:prefLabel>CIFEC Madeiras Industria e Comercio Limitada</skos:prefLabel>
+      <foaf:name>CIFEC Madeiras Industria e Comercio Limitada</foaf:name>
+      <foaf:document>05399720000195</foaf:document>
+      <foaf:based_near rdf:resource="http://sws.geonames.org/3663517/"/>
+      <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#ChinaInternationalForestryEngineeringCorporation"/>
+      <org:headOf rdf:resource="http://www.homework.camp/ORGCON/dados/listasuja.rdf#WangWeijun"/>
+    </org:Organization>
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AntonioChungYinPi">
+      <foaf:name>Antonio Chung Yin Pi</foaf:name>
+    </foaf:Person>
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#ZhangZhangde">
+      <foaf:name>Zhang Zhangde</foaf:name>
+    </foaf:Person>
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#MaKeli">
+      <foaf:name>Ma Keli</foaf:name>
+    </foaf:Person>
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#WangWeijun">
+      <foaf:name>Wang Weijun</foaf:name>
+    </foaf:Person>
+
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#WanderleiPrezotto">
+      <foaf:name>Wanderlei Prezotto</foaf:name>
+    </foaf:Person>
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#IldadaAparecidaRosa">
+      <foaf:name>Ilda da Aparecida Rosa</foaf:name>
+    </foaf:Person>
+
+    <foaf:Person rdf:about="http://www.homework.camp/ORGCON/dados/listasuja.rdf#AntonioResendePenido">
+      <foaf:name>Antonio Resende Penido</foaf:name>
+    </foaf:Person>
+
+</rdf:RDF>
